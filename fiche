@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projet E5</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            height: 100vh;
+            background: linear-gradient(135deg, #0078D7, #003A8C);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 0.5rem 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #0078D7;
+        }
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0078D7;
+        }
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #0078D7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #005BB5;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #101010;
+            color: #bbb;
+        }
+        footer a {
+            color: #0078D7;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #005BB5;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#project">Projet</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Projet E5 - BTS SIO</h1>
+        <p>Présentation du projet : Infrastructure réseau avec VLAN et redondance</p>
+    </header>
+
+    <section id="about">
+        <h2>À propos du projet</h2>
+        <p>Ce projet a été réalisé dans le cadre de l'épreuve E5 du BTS SIO. L'objectif est de concevoir et de déployer une infrastructure réseau performante et résiliente.</p>
+    </section>
+
+    <section id="project">
+        <h2>Détails du projet</h2>
+        <p>Le projet inclut la mise en place de VLAN, la configuration de protocoles comme HSRP/VRRP, et des tests de bascule réseau pour garantir une haute disponibilité.</p>
+        <a href="fichier_documentation.zip" download class="btn">Télécharger la documentation</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour toute question ou pour en savoir plus, contactez-moi à : <a href="mailto:contact@example.com">contact@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Votre Nom - BTS SIO | <a href="#">Retour en haut</a></p>
+    </footer>
+</body>
+</html>
